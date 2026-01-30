@@ -1,0 +1,14 @@
+git+https://github.com/andycasey/sdss-binder2.git@introduction
+numpy
+pandas
+scipy
+h5py
+corner
+matplotlib
+marimo>=0.10.0
+plotly
+pip
+lvm_tools
+matplotdrip
+jupyter-marimo-proxy
+astropy
