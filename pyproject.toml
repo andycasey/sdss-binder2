@@ -18,7 +18,7 @@ dependencies = [
 Homepage = "https://github.com/andycasey/sdss-binder-instructions"
 
 [project.entry-points."jupyter_serverproxy_servers"]
-intro = "sdss_binder:setup"
+sdss = "sdss_binder:setup"
 
 [tool.setuptools.package-data]
-sdss_binder = ["icon.ico"]
+sdss_binder = ["sdss.ico"]
