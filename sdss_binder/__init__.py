@@ -9,7 +9,7 @@ def setup():
 	return {
 		'mappath': mappath,
 		'launcher_entry': {
-			'title': 'Using SDSS data in BinderHub',
+			'title': 'SDSS and BinderHub',
 			'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icon.ico')
 		},
 	}
