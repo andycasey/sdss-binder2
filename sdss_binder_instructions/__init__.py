@@ -18,6 +18,7 @@ def setup():
 		newpath = os.pathsep.join(x for x in newpath.split(os.pathsep) if x and x not in seen and not seen.add(x) and os.path.exists(x))
 	return {
 		'command': ['marimo', 'edit', '--port', '{port}', '--base-url', os.environ['JUPYTERHUB_SERVICE_PREFIX'] + 'marimo', '--token', '--token-password', token, '--headless'],
+                'catalog': "Welcome",
 		'environment': { 'PATH': newpath } if newpath else {},
 		'timeout': 60,
 		'absolute_url': True,
