@@ -18,7 +18,7 @@ dependencies = [
 Homepage = "https://github.com/andycasey/sdss-binder-instructions"
 
 [project.entry-points."jupyter_serverproxy_servers"]
-lab/tree/introduction.ipynb = "sdss_binder:setup_intro"
+intro = "sdss_binder:setup_intro"
 marimo = "sdss_binder:setup_marimo"
 
 [tool.setuptools.package-data]
