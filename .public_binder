@@ -1,5 +1,5 @@
 provider: gh
-spec: andycasey/sdss-binder2/main
+spec: andycasey/sdss-binder/main
 
 mounts:
   lvm: /mnt/home/sdssv/ceph/work/lvm/
