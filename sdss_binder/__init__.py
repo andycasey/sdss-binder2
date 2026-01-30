@@ -8,7 +8,7 @@ def setup_intro():
 	return {
                 'command': [],
 		'launcher_entry': {
-			'title': 'Accessing SDSS on BinderHub',
+			'title': 'SDSS ❤️  BinderHub',
 			'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sdss.svg'),
                         'path_info': 'lab/tree/notebooks/introduction.ipynb'
 		},
