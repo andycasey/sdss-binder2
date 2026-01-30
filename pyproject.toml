@@ -21,4 +21,4 @@ Homepage = "https://github.com/andycasey/sdss-binder-instructions"
 sdss = "sdss_binder:setup"
 
 [tool.setuptools.package-data]
-sdss_binder = ["sdss.svg"]
+sdss_binder = ["sdss.ico", "sdss.svg"]
